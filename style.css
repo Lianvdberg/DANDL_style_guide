@@ -1,0 +1,146 @@
+.subject{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+/*styling of color subject*/
+
+.colors{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    gap: 3px;
+}
+
+.colors li{
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.colors p{
+    margin: 2px;
+    font-size: 15px;
+}
+
+.colors li > p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#black{
+    background-color: black;
+    color: white;
+}
+
+#gray{
+    background-color: gray;
+}
+
+#silver{
+    background-color: silver;
+}
+
+#white{
+    border: 1px solid black;
+}
+
+#firebrick{
+    background-color: firebrick;
+}
+
+#red{
+    background-color: red;
+}
+
+#tomato{
+    background-color: tomato;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#gold{
+    background-color: gold;
+}
+
+#blue{
+    background-color: blue;
+    color: white;
+}
+
+#deepskyblue{
+    background-color: deepskyblue;
+}
+
+#lightblue{
+    background-color: lightblue;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: green;
+}
+
+#limegreen{
+    background-color: limegreen;
+}
+
+#lightgreen{
+    background-color: lightgreen;
+}
+
+#indigo{
+    background-color: indigo;
+    color: white;
+}
+
+#purple{
+    background-color: purple;
+    color: white;
+}
+
+#darkviolet{
+    background-color: darkviolet;
+}
+
+#violet{
+    background-color: violet;
+}
+
+
+/*styling of font subject*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.fonts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    gap: 20px;
+    font-size: 17px;
+}
+
+.fonts h3{
+    text-decoration: underline;
+}
+
+#timesnewroman{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#couriernew{
+    font-family: 'Courier New', Courier, monospace;
+}
