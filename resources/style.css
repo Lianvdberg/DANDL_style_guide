@@ -1,0 +1,258 @@
+
+html{
+    scroll-padding-top: 60px;
+    background-color: #c4f5ec;
+}
+
+/* Styling van nav bar */
+nav{
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#6bdacd;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    background-color: #c4f5ec;
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* Main styles */
+
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.subject{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+}
+
+.subject h2{
+    text-decoration: underline;
+}
+
+/*styling of color subject*/
+
+.colors{
+    display: grid;
+    padding: 0px;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    gap: 3px;
+}
+
+.colors li{
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.colors p{
+    margin: 2px;
+    font-size: 15px;
+}
+
+.colors li > p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#black{
+    background-color: black;
+    color: white;
+}
+
+#gray{
+    background-color: gray;
+}
+
+#silver{
+    background-color: silver;
+}
+
+#white{
+    border: 1px solid black;
+}
+
+#firebrick{
+    background-color: firebrick;
+}
+
+#red{
+    background-color: red;
+}
+
+#tomato{
+    background-color: tomato;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#gold{
+    background-color: gold;
+}
+
+#blue{
+    background-color: blue;
+    color: white;
+}
+
+#deepskyblue{
+    background-color: deepskyblue;
+}
+
+#lightblue{
+    background-color: lightblue;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: green;
+}
+
+#limegreen{
+    background-color: limegreen;
+}
+
+#lightgreen{
+    background-color: lightgreen;
+}
+
+#indigo{
+    background-color: indigo;
+    color: white;
+}
+
+#purple{
+    background-color: purple;
+    color: white;
+}
+
+#darkviolet{
+    background-color: darkviolet;
+}
+
+#violet{
+    background-color: violet;
+}
+
+
+/*styling of font subject*/
+
+.fonts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    gap: 20px;
+    font-size: 17px;
+    padding: 0px;
+}
+
+.fonts h3{
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+#timesnewroman{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#couriernew{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#sofia{
+    font-family: 'Sofia';
+}
+
+#roboto{
+    font-family: 'Roboto';
+}
+
+#arial{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#playwrite{
+    font-family: "Playwrite CO Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*styling of text style subject*/
+
+.textstyle{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    gap: 20px;
+    font-size: 17px;
+    padding: 0px;
+}
+
+.textstyle h1{
+    padding: 0;
+}
+
+h2{
+    font-weight: 600;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.textstyle li {
+    display: flex;
+    flex-direction: column; /* Zorgt ervoor dat header en ul gestapeld worden */
+    align-items: flex-start; /* Uitlijnen aan de linkerkant */
+}
+
+.textstyle h1, .textstyle h2, .textstyle h3 {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.textstyle ul {
+    margin-top: auto; /* Start op een vaste hoogte */
+    padding: 0;
+}
+
+.textstyle ul li{
+    display: flex;
+    flex-direction: row; /* Zorgt dat de twee tekstelementen achter elkaar komen te staan ipv onder elkaar */
+    gap: 5px;
+}
