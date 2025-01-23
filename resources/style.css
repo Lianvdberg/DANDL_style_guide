@@ -256,3 +256,7 @@ h3{
     flex-direction: row; /* Zorgt dat de twee tekstelementen achter elkaar komen te staan ipv onder elkaar */
     gap: 5px;
 }
+
+.textstyle h2{
+    text-decoration: none;
+}
